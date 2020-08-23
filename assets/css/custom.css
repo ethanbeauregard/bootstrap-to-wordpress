@@ -142,7 +142,7 @@ section {
 }
 
 section h2 {
-  padding: 20px 0 40px;
+  padding: 20px 0 30px;
 }
 
 section h3 {
@@ -166,6 +166,37 @@ section h3 {
   background: #fff;
 }
 
+#project-features {
+  text-align: center;
+}
 /* #who-benefits .who-top-title{
   margin: -10px 0 0 0;
 } */
+
+#course-features {
+  background: #3e4249;
+  text-align: center;
+  color: #fff;
+}
+
+#featurette {
+  background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+  background-position: cover;
+  text-align: center;
+  color: #fff;
+}
+
+/* Custom Icon Sprites */
+i.ci {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: url('../img/icon-sprite.png') no-repeat;
+}
+
+.ci.ci-computer   {background-position: 0 0;}
+.ci.ci-watch      {background-position: -40px 0;}
+.ci.ci-calender   {background-position: -80px 0;}
+.ci.ci-community  {background-position: -120px 0;}
+.ci.ci-instructor {background-position: -160px 0;}
+.ci.ci-device     {background-position: -200px 0;}
