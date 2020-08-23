@@ -35,14 +35,31 @@ h4 {
   font-size: 18px;
 }
 
+button, input, .btn, a.btn {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+}
+
 .btn {
   font-weight: bold;
+}
+
+.btn.enroll {
   margin-top: 60px;
 }
 
 .btn-danger {
   background-color: #dd5638;
   border-collapse: #d95131;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.logo-banner {
+  margin-top: 15px;
 }
 
 /* Hero */
@@ -113,4 +130,18 @@ h4 {
   display: block;
   font-weight: bold;
   margin-top: 3px;
+}
+
+/* Layout  */
+#optin {
+  background: #3e4249;
+  padding: 20px 0;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 1.2rem;
+}
+
+#optin p {
+  margin: 7px 0 0 0;
 }
