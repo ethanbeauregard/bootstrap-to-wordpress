@@ -54,6 +54,10 @@ button, input, .btn, a.btn {
   font-weight: bold;
 }
 
+button.btn:focus {
+  outline: none !important;
+}
+
 .btn.enroll {
   margin-top: 60px;
 }
@@ -61,6 +65,16 @@ button, input, .btn, a.btn {
 .btn-danger {
   background-color: #dd5638;
   border-collapse: #d95131;
+}
+
+.btn-success {
+  border: none;
+  background: #79b044;
+}
+
+.btn-success:hover {
+  border-color: #6a9b3d;
+  background: #6a9b3d;
 }
 
 img {
@@ -263,6 +277,26 @@ section h3 {
   display: block;
   font-size: 20px;
   font-weight: normal;
+}
+
+#signup {
+  text-align: center;
+  background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 140px 0;
+}
+
+#signup h2 {
+  font-weight: normal;
+}
+
+#signup h2 strong {
+  border-bottom: solid 2px #dd5638;
+}
+
+#signup .btn {
+  font-size: 24px;
 }
 
 footer {
